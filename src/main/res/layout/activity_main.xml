@@ -1,0 +1,70 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startseite">
+
+    <!-- Unsichtbarer Button: Start Tier-Rallye -->
+    <Button
+        android:id="@+id/start_tier_rallye_button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Start Tier-Rallye" />
+
+    <!-- Unsichtbarer Button: Quiz (Würfel) -->
+
+    <!-- Unsichtbarer Button: Abzeichen (Medaille) -->
+
+    <!-- Unsichtbarer Button: Einstellungen (Pfote) -->
+
+    <Button
+        android:id="@+id/quiz_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="466dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Quiz starten" />
+
+    <Button
+        android:id="@+id/abzeichen_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="576dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Abzeichen anzeigen" />
+
+    <!-- Unsichtbarer Button: Karte -->
+    <Button
+        android:id="@+id/einstellungen_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="576dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Einstellungen öffnen" />
+
+    <Button
+        android:id="@+id/karte_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="466dp"
+        android:layout_marginEnd="99dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Karte öffnen" />
+
+
+</RelativeLayout>
+
+
+
+
+

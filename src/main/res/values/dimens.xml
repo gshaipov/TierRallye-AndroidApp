@@ -1,0 +1,19 @@
+<resources>
+    <!-- Start Tier-Rallye -->
+    <dimen name="start_tier_rallye_margin_top">300dp</dimen>
+
+    <!-- Quiz -->
+    <dimen name="quiz_margin_start">60dp</dimen>
+    <dimen name="quiz_margin_top">380dp</dimen>
+
+    <!-- Abzeichen -->
+    <dimen name="abzeichen_margin_top">370dp</dimen>
+
+    <!-- Einstellungen -->
+    <dimen name="einstellungen_margin_end">60dp</dimen>
+    <dimen name="einstellungen_margin_top">460dp</dimen>
+
+    <!-- Karte -->
+    <dimen name="karte_margin_top">480dp</dimen>
+</resources>
+

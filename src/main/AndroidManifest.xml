@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.app">
+
+    <!-- Berechtigungen -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APP"
+        tools:targetApi="31">
+
+        <!-- MainActivity: Startpunkt der App -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.APP">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ImageSwitchActivity -->
+        <activity
+            android:name=".ImageSwitchActivity"
+            android:exported="false" />
+
+        <activity android:name=".ImageSwitchActivity2"
+            android:exported="true" />
+
+        <!-- StartTierRallyeActivity -->
+        <activity
+            android:name=".StartTierRallyeActivity"
+            android:exported="false" />
+
+        <!-- Weitere Aktivitäten -->
+        <activity android:name=".QuizActivity" android:exported="false" />
+        <activity android:name=".KarteActivity" android:exported="false" />
+        <activity android:name=".AbzeichenActivity" android:exported="false" />
+        <activity android:name=".EinstellungenActivity" android:exported="false" />
+        <activity android:name=".MapActivity" android:exported="false" />
+        <activity android:name=".InfoKarteActivity" android:exported="false" />
+        <activity android:name=".BieneInfoActivity" android:exported="false"/>
+
+
+
+    </application>
+</manifest>
