@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the Android Studio project developed as part of the **"Informatik 2"** module during the Summer Semester 2025. The primary goal was to design and implement an interactive, child-friendly mobile application that guides users through a fictional animal rally in the **Wildpark Grafenberg Düsseldorf**. The project was realized entirely from scratch using Android Studio with a combination of **Java**, **Kotlin**, and **XML-based UI design**.
+This repository contains the Android Studio project developed as part of the **"Informatik 2"** module during the Winter Semester 2024/25. The primary goal was to design and implement an interactive, child-friendly mobile application that guides users through a fictional animal rally in the **Wildpark Grafenberg Düsseldorf**. The project was realized entirely from scratch using Android Studio with a combination of **Java**, **Kotlin**, and **XML-based UI design**.
 
 The application provides a playful learning environment, allowing children to explore animals, read short stories, and test their knowledge through quizzes—all in a clean, intuitive interface designed for young users.
 
